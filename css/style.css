@@ -2058,6 +2058,7 @@ img{
 	font-size:18px;
 	color:#25283a;
 	margin:0;
+	text-align: justify;
 }
 
 .sec-title .link-box{
@@ -2789,7 +2790,7 @@ img{
 }
 
 .mission-vision .text-column .sec-title{
-	margin-top:70px;	
+	margin-top:40px;	
 }
 
 .mission-vision .image-column .row{
@@ -2867,6 +2868,7 @@ img{
 	position:relative;
 	max-width:1000px;
 	margin:0 auto;	
+	text-align: center;
 }
 
 .call-to-action .sec-title{
@@ -8913,3 +8915,29 @@ img.lazy-image.loaded{
 }
 
 
+
+
+
+
+.list-style {
+	width: 14px;
+	height: 14px;
+  }
+  
+  .unordered-list li {
+	position: relative;
+	padding-left: 30px;
+	line-height: 1.82em !important;
+  }
+  
+  .unordered-list li:before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border: 3px solid #25283a;
+	background: #fff;
+	top: 13px;
+	left: 0;
+	border-radius: 50%;
+  }
