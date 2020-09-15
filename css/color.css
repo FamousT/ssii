@@ -66,11 +66,11 @@ a{
 }
 
 .main-header .header-upper .logo-box .logo{
-	background:#3cc88f;
+	background:#fff;
 }
 
 .main-header .header-upper .logo-box .logo:before{
-    background: #3cc88f;
+    background: #ffffff;
 }
 
 .main-header .nav-outer .link-box .cart-link a:hover{
