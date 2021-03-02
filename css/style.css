@@ -34,11 +34,11 @@ font-family: 'Open Sans', sans-serif;
  ***/
 
 
- /* .col-md-6 {  
-	width: 400px;
-	height: 400px;
+ .col-md-6 {  
+	/* width: 400px;
+	height: 400px; */
 	overflow: hidden; 
-  } */
+  }
   
   .inner-img {
 	transition: 0.3s;
@@ -50,11 +50,11 @@ font-family: 'Open Sans', sans-serif;
   
   /* Other styling elements, that are not necessary for the example */
   
-  /* .col-md-3 {
+  .col-md-3 {
 	display: inline-block;
 	box-sizing: border-box;
-	border: 1px solid #000;
-  } */
+	/* border: 1px solid #000; */
+  }
 
 
 
