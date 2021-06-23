@@ -15,6 +15,14 @@
 <link href="css/style.css" rel="stylesheet">
 <!-- Responsive File -->
 <link href="css/responsive.css" rel="stylesheet">
+
+
+<!-- Pop Up -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
 <!-- Color File -->
 <link href="css/color.css" rel="stylesheet">
 
@@ -23,6 +31,31 @@
 </head>
 
 <body>
+
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">A programme for teenagers and youths</h5>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                    <img src="images/excel/excel2.jpeg" alt="Italian Trulli" style="width: 100%;">
+    
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+
+
+
+
+
+
+
+
 
     <div class="page-wrapper">
         <!-- Preloader -->
@@ -79,7 +112,7 @@
                                         <!-- <li class=""><a href="">Trustees</a></li> -->
                                         <li class="dropdown"><a href="#">Events</a>
                                             <ul>
-                                                <li><a href="#">Upcoming Event</a></li>
+                                                <li><a href="event2.html">Upcoming Event</a></li>
                                                 <li><a href="event.html">Past Events</a></li>
                                                 <li><a href="photos.html">Photos</a></li>
                                                 <li><a href="videos.html">Videos</a></li>
@@ -494,10 +527,8 @@
         </div>
     </section>
 
-
-
-
     
+
 	<!-- Main Footer -->
     <footer class="main-footer">
     	<div class="auto-container">
@@ -592,6 +623,14 @@
 <!--End pagewrapper-->
 
 <!--Scroll to top-->
+
+<script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+</script>
+
+
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
 
 <script src="js/jquery.js"></script>
@@ -605,6 +644,7 @@
 <script src="js/lazyload.js"></script>
 <script src="js/scrollbar.js"></script>
 <script src="js/script.js"></script>
+
 
 </body>
 </html>

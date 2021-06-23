@@ -5402,10 +5402,10 @@ a.close.disabled {
   height: 50px;
   overflow: scroll;
 }
-@media (min-width: 576px) {
+@media (min-width: 700px) {
   .modal-dialog {
-    max-width: 500px;
-    margin: 1.75rem auto;
+    max-width: 750px;
+    margin: 1.55rem auto;
   }
   .modal-dialog-scrollable {
     max-height: calc(100% - 3.5rem);
